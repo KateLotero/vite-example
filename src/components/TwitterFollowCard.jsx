@@ -11,7 +11,7 @@ function TwitterFollowCard({ userName, name, avatar, initialIsFollowing }) {
   };
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center  justify-between">
       <article>
         <header className="flex items-center space-x-4">
           <img className="w-12 h-12 rounded-full" alt="avatar" src={avatar} />
@@ -21,7 +21,7 @@ function TwitterFollowCard({ userName, name, avatar, initialIsFollowing }) {
           </div>
         </header>
       </article>
-      <aside>
+      <aside className="pl-4">
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
           onClick={handelClick}
