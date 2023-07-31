@@ -45,7 +45,7 @@ const users = [
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen  bg-indigo-400">
+      <div className="flex flex-col items-center justify-center h-screen  bg-indigo-200">
         <div className=" inline-flex flex-col space-y-4">
           {users.map((user) => {
             const { userName, name, avatar, initialIsFollowing } = user;
